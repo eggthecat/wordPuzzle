@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $('form').submit(function(event){
+  $('form#word').submit(function(event){
     event.preventDefault();
+    var vowels = ['a','e','i','o','u'];
+    vowels =
+
   })
 })
