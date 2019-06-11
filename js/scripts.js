@@ -3,8 +3,8 @@ $(document).ready(function(){
     event.preventDefault();
     var vowels = ['a','e','i','o','u'];
     var string = "I have a nerf gun";
-    var i = string.splice("");
+    var i = string.split("");
+    console.log($this);
     console.log(i);
-    console.log(string);
   })
 })
